@@ -27,7 +27,7 @@ export class SigninPage implements OnInit {
 	) {}
 
 	ngOnInit() {
-		this.titleServce.setTitle("Entrar - Social Network");
+		this.titleServce.setTitle("Entrar - BlueWave");
 
 		this.signInForm = this.formBuilder.group({
 			email: ["", [Validators.required, Validators.email]],

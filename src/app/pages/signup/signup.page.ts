@@ -27,7 +27,7 @@ export class SignupPage implements OnInit {
 	) {}
 
 	ngOnInit() {
-		this.titleServce.setTitle("Cadastro - Social Network");
+		this.titleServce.setTitle("Cadastro - BlueWave");
 
 		this.signUpForm = this.formBuilder.group(
 			{
